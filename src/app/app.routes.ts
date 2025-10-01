@@ -10,7 +10,7 @@ import { AttendanceWorkingComponent } from './attendance-working/attendance-work
 import { ReportComponent } from './report/report.component';
 
 export const routes: Routes = [
-  { path: '', pathMatch: 'full', redirectTo: 'dashboard' },
+  { path: '', pathMatch: 'full', redirectTo: 'attendance' },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'vendors', component: VendorsComponent },
   { path: 'attendance', component: AttendanceTableComponent },

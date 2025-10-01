@@ -236,10 +236,25 @@ export class AttendanceTableComponent implements OnInit {
 			const absent = d.get('absent')!.value as boolean;
 			const hours = d.get('hours')!.value as string;
 			if (!absent) totalHours += this.parseHoursToNumber(hours);
-		}
-		const rounded = Math.round(totalHours * 100) / 100; // two decimals
+		}	
+		// Round to the nearest minute while keeping numeric hours for calculations
+		const rounded = Math.round(totalHours * 60) / 60;
 		row.get('totalHours')!.setValue(rounded, { emitEvent: false });
 		row.get('totalPay')!.setValue(rounded * this.hourlyRate, { emitEvent: false });
+	}
+
+	private toHHMM(totalHours: number): string {
+		const totalMinutes = Math.round((totalHours || 0) * 60);
+		const hh = Math.floor(totalMinutes / 60);
+		const mm = totalMinutes % 60;
+		const hhStr = hh.toString().padStart(2, '0');
+		const mmStr = mm.toString().padStart(2, '0');
+		return `${hhStr}:${mmStr}`;
+	}
+
+	getRowTotalHHMM(row: FormGroup): string {
+		const hours = (row.get('totalHours')!.value as number) || 0;
+		return this.toHHMM(hours);
 	}
 
 	private recalculateGrandTotal() {

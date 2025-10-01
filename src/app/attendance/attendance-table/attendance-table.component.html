@@ -84,7 +84,7 @@
 								</ng-template>
 							</div>
 						</td>
-						<td class="sticky-right"><span class="pill hours">{{ row.get('totalHours')?.value | number:'1.2-2' }}H</span></td>
+						<td class="sticky-right"><span class="pill hours">{{ getRowTotalHHMM(row) }}</span></td>
                         <td class="sticky-right"><span class="pill pay">{{ row.get('totalPay')?.value | number:'1.2-2' }} AED</span></td>
 					</tr>
 				</tbody>
