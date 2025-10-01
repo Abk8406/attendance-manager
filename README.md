@@ -35,6 +35,13 @@ Scripts (see `package.json`):
 - Totals per employee row and global totals
 - Export current table to Excel
 
+## Screenshots
+Screenshots are stored under `src/assets/img/` (alias: `@img/`). The README uses relative paths so they render on GitHub.
+
+![Attendance Page](src/assets/img/image.png)
+![Attendance Page – Alt](src/assets/img/image2.png)
+![Attendance Page – Variant](src/assets/img/image_1.png)
+
 ## Time input rules (HH:mm)
 - Only digits and navigation keys are accepted
 - Auto-normalization on blur
