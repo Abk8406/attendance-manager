@@ -1,0 +1,44 @@
+<div class="backdrop" (click)="toggle()" [class.show]="!collapsed"></div>
+<nav class="sidebar" [class.collapsed]="collapsed" [class.mobile-open]="!collapsed">
+	<div class="sidebar-header">
+		<button class="toggle" (click)="toggle()">☰</button>
+	</div>
+	<ul class="nav-menu">
+		<li class="nav-item" routerLink="/dashboard" routerLinkActive="active" (click)="onNavLinkClick()">
+			<span class="nav-icon"><mat-icon class="material-icons">dashboard</mat-icon></span>
+			<span class="nav-text">Dashboard</span>
+		</li>
+		<li class="nav-item" routerLink="/report" routerLinkActive="active" (click)="onNavLinkClick()">
+			<span class="nav-icon"><mat-icon class="material-icons">description</mat-icon></span>
+			<span class="nav-text">Report</span>
+		</li>
+		<li class="nav-item" routerLink="/attendance-working" routerLinkActive="active" (click)="onNavLinkClick()">
+			<span class="nav-icon"><mat-icon class="material-icons">schedule</mat-icon></span>
+			<span class="nav-text">Attendance Working</span>
+		</li>
+		<li class="nav-section" (click)="toggleMaster()">
+			<span class="nav-icon"><mat-icon class="material-icons">star</mat-icon></span>
+			<span class="nav-text">Master</span>
+		</li>
+		<li class="nav-item child" routerLink="/attendance" routerLinkActive="active" *ngIf="isMasterOpen" (click)="onNavLinkClick()">
+			<span class="nav-icon"><mat-icon class="material-icons">groups</mat-icon></span>
+			<span class="nav-text">Vendors</span>
+		</li>
+		<li class="nav-item child" routerLink="/employees" routerLinkActive="active" *ngIf="isMasterOpen" (click)="onNavLinkClick()">
+			<span class="nav-icon"><mat-icon class="material-icons">badge</mat-icon></span>
+			<span class="nav-text">Employees</span>
+		</li>
+		<li class="nav-item child" routerLink="/locations" routerLinkActive="active" *ngIf="isMasterOpen" (click)="onNavLinkClick()">
+			<span class="nav-icon"><mat-icon class="material-icons">location_on</mat-icon></span>
+			<span class="nav-text">Locations</span>
+		</li>
+		<li class="nav-item child" routerLink="/devices" routerLinkActive="active" *ngIf="isMasterOpen" (click)="onNavLinkClick()">
+			<span class="nav-icon"><mat-icon class="material-icons">devices</mat-icon></span>
+			<span class="nav-text">Devices</span>
+		</li>
+		<li class="nav-item child" routerLink="/shifts" routerLinkActive="active" *ngIf="isMasterOpen" (click)="onNavLinkClick()">
+			<span class="nav-icon"><mat-icon class="material-icons">calendar_today</mat-icon></span>
+			<span class="nav-text">Shifts</span>
+		</li>
+	</ul>
+</nav>

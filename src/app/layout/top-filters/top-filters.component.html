@@ -1,0 +1,46 @@
+<div class="top-bar" role="region" aria-label="Filters">
+	<div class="filters">
+		<div class="filter-group">
+			<mat-form-field appearance="outline">
+				<mat-label>Vendor</mat-label>
+				<mat-icon matPrefix class="material-icons-outlined">groups</mat-icon>
+				<mat-select>
+					<mat-option *ngFor="let v of vendors" [value]="v">{{ v }}</mat-option>
+				</mat-select>
+			</mat-form-field>
+		</div>
+		<div class="filter-group">
+			<mat-form-field appearance="outline">
+				<mat-label>Employee</mat-label>
+				<mat-icon matPrefix class="material-icons-outlined">badge</mat-icon>
+				<mat-select>
+					<mat-option *ngFor="let e of employees" [value]="e">{{ e }}</mat-option>
+				</mat-select>
+			</mat-form-field>
+		</div>
+		<div class="filter-group">
+			<mat-form-field appearance="outline">
+				<mat-label>Location</mat-label>
+				<mat-icon matPrefix class="material-icons-outlined">location_on</mat-icon>
+				<mat-select>
+					<mat-option *ngFor="let l of locations" [value]="l">{{ l }}</mat-option>
+				</mat-select>
+			</mat-form-field>
+		</div>
+		<div class="filter-group">
+			<mat-form-field appearance="outline">
+				<mat-label>Month</mat-label>
+				<mat-icon matPrefix class="material-icons-outlined">event</mat-icon>
+				<mat-select>
+					<mat-option *ngFor="let m of months" [value]="m">{{ m }}</mat-option>
+				</mat-select>
+			</mat-form-field>
+		</div>
+	</div>
+	<div class="actions">
+		<button mat-raised-button color="primary" class="export-btn" (click)="onExport()">
+			
+			Export
+		</button>
+	</div>
+</div>

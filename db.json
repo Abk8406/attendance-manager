@@ -1,0 +1,2046 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Mohammed Yousuf",
+      "empId": "EHK-002",
+      "designation": "Operator",
+      "hourlyRate": 20,
+      "attendance": {
+        "15": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "16": {
+          "hours": "00:00",
+          "absent": true
+        },
+        "17": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "18": {
+          "hours": "08:00",
+          "absent": true
+        },
+        "19": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "20": {
+          "hours": "00:00",
+          "absent": true
+        },
+        "21": {
+          "hours": "08:00",
+          "absent": true
+        },
+        "22": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "23": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "24": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "25": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "26": {
+          "hours": "08:00",
+          "absent": true
+        },
+        "27": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "28": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "29": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "30": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "31": {
+          "hours": "08:00",
+          "absent": false
+        }
+      }
+    },
+    {
+      "id": "2",
+      "name": "Ethan Carter",
+      "empId": "EHK-003",
+      "designation": "Technician",
+      "hourlyRate": 20,
+      "attendance": {
+        "15": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "16": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "17": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "18": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "19": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "20": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "21": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "22": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "23": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "24": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "25": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "26": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "27": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "28": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "29": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "30": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "31": {
+          "hours": "08:00",
+          "absent": false
+        }
+      }
+    },
+    {
+      "id": "3",
+      "name": "Aisha Khan",
+      "empId": "EHK-004",
+      "designation": "Welder",
+      "hourlyRate": 20,
+      "attendance": {
+        "15": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "16": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "17": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "18": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "19": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "20": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "21": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "22": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "23": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "24": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "25": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "26": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "27": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "28": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "29": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "30": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "31": {
+          "hours": "08:00",
+          "absent": false
+        }
+      }
+    },
+    {
+      "id": "4",
+      "name": "Liam Patel",
+      "empId": "EHK-005",
+      "designation": "Electrician",
+      "hourlyRate": 20,
+      "attendance": {
+        "15": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "16": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "17": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "18": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "19": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "20": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "21": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "22": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "23": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "24": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "25": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "26": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "27": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "28": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "29": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "30": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "31": {
+          "hours": "08:00",
+          "absent": false
+        }
+      }
+    },
+    {
+      "id": "5",
+      "name": "Sophia Ahmed",
+      "empId": "EHK-006",
+      "designation": "Supervisor",
+      "hourlyRate": 20,
+      "attendance": {
+        "15": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "16": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "17": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "18": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "19": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "20": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "21": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "22": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "23": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "24": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "25": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "26": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "27": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "28": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "29": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "30": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "31": {
+          "hours": "08:00",
+          "absent": false
+        }
+      }
+    },
+    {
+      "id": "6",
+      "name": "Lucas Martin",
+      "empId": "EHK-009",
+      "designation": "Driver",
+      "hourlyRate": 20,
+      "attendance": {
+        "15": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "16": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "17": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "18": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "19": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "20": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "21": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "22": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "23": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "24": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "25": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "26": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "27": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "28": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "29": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "30": {
+          "hours": "08:00",
+          "absent": false
+        },
+        "31": {
+          "hours": "08:00",
+          "absent": false
+        }
+      }
+    }
+  ],
+  "attendance": [
+    {
+      "0": {
+        "id": "1",
+        "name": "Mohammed Yousuf",
+        "empId": "EHK-002",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 128,
+        "totalPay": 2560
+      },
+      "1": {
+        "id": "2",
+        "name": "Ethan Carter",
+        "empId": "EHK-003",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "id": "2126"
+    },
+    {
+      "0": {
+        "id": "1",
+        "name": "Mohammed Yousuf",
+        "empId": "EHK-002",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 128,
+        "totalPay": 2560
+      },
+      "1": {
+        "id": "2",
+        "name": "Ethan Carter",
+        "empId": "EHK-003",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "id": "3b73"
+    },
+    {
+      "0": {
+        "id": "1",
+        "name": "Mohammed Yousuf",
+        "empId": "EHK-002",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "04:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "01:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 100,
+        "totalPay": 2000
+      },
+      "1": {
+        "id": "2",
+        "name": "Ethan Carter",
+        "empId": "EHK-003",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 128,
+        "totalPay": 2560
+      },
+      "id": "e9fe"
+    },
+    {
+      "0": {
+        "id": "1",
+        "name": "Mohammed Yousuf",
+        "empId": "EHK-002",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 112,
+        "totalPay": 2240
+      },
+      "1": {
+        "id": "2",
+        "name": "Ethan Carter",
+        "empId": "EHK-003",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 112,
+        "totalPay": 2240
+      },
+      "id": "30b4"
+    },
+    {
+      "0": {
+        "id": "1",
+        "name": "Mohammed Yousuf",
+        "empId": "EHK-002",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 96,
+        "totalPay": 1920
+      },
+      "1": {
+        "id": "2",
+        "name": "Ethan Carter",
+        "empId": "EHK-003",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "2": {
+        "id": "3",
+        "name": "Aisha Khan",
+        "empId": "EHK-004",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "3": {
+        "id": "4",
+        "name": "Liam Patel",
+        "empId": "EHK-005",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "4": {
+        "id": "5",
+        "name": "Sophia Ahmed",
+        "empId": "EHK-006",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "5": {
+        "id": "6",
+        "name": "Lucas Martin",
+        "empId": "EHK-009",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "id": "288f"
+    },
+    {
+      "0": {
+        "id": "1",
+        "name": "Mohammed Yousuf",
+        "empId": "EHK-002",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "01:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "00:00",
+            "absent": true
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "02:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 83,
+        "totalPay": 1660
+      },
+      "1": {
+        "id": "2",
+        "name": "Ethan Carter",
+        "empId": "EHK-003",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "2": {
+        "id": "3",
+        "name": "Aisha Khan",
+        "empId": "EHK-004",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "3": {
+        "id": "4",
+        "name": "Liam Patel",
+        "empId": "EHK-005",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "4": {
+        "id": "5",
+        "name": "Sophia Ahmed",
+        "empId": "EHK-006",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "5": {
+        "id": "6",
+        "name": "Lucas Martin",
+        "empId": "EHK-009",
+        "designation": "Helper",
+        "attendance": [
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          },
+          {
+            "hours": "08:00",
+            "absent": false
+          }
+        ],
+        "totalHours": 136,
+        "totalPay": 2720
+      },
+      "id": "1f07"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+.hamburger {
+	display: none;
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	z-index: 1100;
+	background: #2c3e50;
+	color: white;
+	border: none;
+	border-radius: 6px;
+	padding: 10px 12px;
+	cursor: pointer;
+	font-size: 16px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+	transition: all 0.2s ease;
+
+	&:hover {
+		background: #34495e;
+		transform: translateY(-1px);
+	}
+}
+
+@media (max-width: 992px) {
+	.hamburger { display: inline-block; }
+}
+
+.app-shell {
+	display: flex;
+	min-height: 100vh;
+	background: #f5f6fa;
+}
+
+.content-area {
+	flex: 1;
+	padding: 0;
+	overflow: hidden;
+	margin-left: 0;
+	background: #f5f6fa;
+	min-height: 100vh;
+
+	@media (max-width: 768px) {
+		padding: 0;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+}
+
+@media (min-width: 993px) {
+	.content-area { 
+		margin-left: 0; 
+		padding-left: 0;
+	}
+}
+
+.table-scroll {
+	overflow-x: auto;
+	overflow-y: visible;
+	-webkit-overflow-scrolling: touch;
+}

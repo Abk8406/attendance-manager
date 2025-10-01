@@ -1,0 +1,155 @@
+<ngx-spinner bdColor="rgba(0,0,0,0.25)" size="medium" color="#fff" type="ball-spin" [fullScreen]="true"></ngx-spinner>
+
+<div class="vendor-section">
+	<div class="vendor-header">
+		<div class="vendor-info">
+			<input type="checkbox" class="vendor-checkbox" />
+			<h3 class="vendor-name">Al Hekma Manpower Supply Services</h3>
+			<span class="month-badge">Aug 2025</span>
+		</div>
+		<div class="vendor-summary">
+            <div class="summary-item">
+                <span class="summary-value">{{ vendorEmployees }}</span>
+				<span class="summary-label">Employees</span>
+			</div>
+			<div class="summary-item">
+                <span class="summary-value">{{ vendorWorkingHours | number:'1.0-0' }}</span>
+				<span class="summary-label">Working Hours</span>
+			</div>
+            <div class="summary-item">
+                <span class="summary-value">{{ pricePerHour | number:'1.2-2' }} AED</span>
+				<span class="summary-label">Price per Hour</span>
+			</div>
+			<div class="summary-item total">
+                <span class="summary-value">{{ vendorTotalPay | number:'1.2-2' }} AED</span>
+				<span class="summary-label">Total Payable</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- Plant Section Example -->
+	<div class="plant-section">
+		<div class="plant-header">
+			<div class="plant-title">
+				<span class="plant-icon material-icons">location_on</span>
+				<h4 class="plant-name">LBR - S Plant</h4>
+			</div>
+			<div class="plant-summary">
+			<div class="summary-item">
+                <span class="summary-value">{{ getPlantEmployees('LBR - S Plant') }}</span>
+				<span class="summary-label">Employees</span>
+			</div>
+			<div class="summary-item">
+                <span class="summary-value">{{ getPlantHours('LBR - S Plant') | number:'1.0-0' }}</span>
+				<span class="summary-label">Working Hours</span>
+			</div>
+			   <div class="summary-item">
+			       <span class="summary-value">{{ pricePerHour | number:'1.2-2' }} AED</span>
+			       <span class="summary-label">Price per Hour</span>
+			   </div>
+			<div class="summary-item total">
+               <span class="summary-value">{{ getPlantPay('LBR - S Plant') | number:'1.2-2' }} AED</span>
+			   	   <span class="summary-label">Total Payable</span>
+			</div>
+			</div>
+		</div>
+
+		<div class="table-scroll" role="region" aria-label="Attendance table" tabindex="0">
+			<table class="attendance">
+				<thead>
+					<tr>
+						<th>Employee Name</th>
+						<th>Emp ID</th>
+						<th>Designation</th>
+						<th *ngFor="let d of dates">{{ d }}</th>
+						<th class="sticky-right">Total Working Hour</th>
+						<th class="sticky-right">Total Pay</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr *ngFor="let row of form.controls; let i = index" [formGroup]="row">
+						<td>
+							<input type="text" formControlName="name" placeholder="Employee Name" />
+						</td>
+						<td>{{ row.get('empId')?.value }}</td>
+						<td>{{ row.get('designation')?.value }}</td>
+						<td *ngFor="let d of dates; let di = index" [formGroup]="getAttendanceArray(row).at(di)">
+							<div class="day-cell" [class.is-absent]="getAttendanceArray(row).at(di).get('absent')?.value">
+								<ng-container *ngIf="!getAttendanceArray(row).at(di).get('absent')?.value; else absentTpl">
+							<input type="text" formControlName="hours" placeholder="08:00" inputmode="numeric" maxlength="5" pattern="^([01]\\d|2[0-3]):[0-5]\\d$" matTooltip="Use HH:mm format. You can type digits like  → 08:00" matTooltipPosition="above" (keydown)="onHoursKeydown($event)" (blur)="onHoursBlur(row, di)" [class.invalid]="getAttendanceArray(row).at(di).get('hours')?.invalid && getAttendanceArray(row).at(di).get('hours')?.touched" />
+									<button type="button" class="mark-absent" (click)="markAbsent(row, di)">Mark Absent</button>
+								</ng-container>
+								<ng-template #absentTpl>
+									<span class="absent-badge" (click)="markPresent(row, di)">Absent</span>
+								</ng-template>
+							</div>
+						</td>
+						<td class="sticky-right"><span class="pill hours">{{ row.get('totalHours')?.value | number:'1.2-2' }}H</span></td>
+                        <td class="sticky-right"><span class="pill pay">{{ row.get('totalPay')?.value | number:'1.2-2' }} AED</span></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+	<!-- Another Plant -->
+	<div class="plant-section">
+		<div class="plant-header">
+			<div class="plant-title">
+				<span class="plant-icon material-icons">location_on</span>
+				<h4 class="plant-name">OUD Plant (LBP)</h4>
+			</div>
+			<div class="plant-summary">
+			<div class="summary-item">
+                <span class="summary-value">{{ getPlantEmployees('OUD Plant (LBP)') }}</span>
+				<span class="summary-label">Employees</span>
+			</div>
+			<div class="summary-item">
+                <span class="summary-value">{{ getPlantHours('OUD Plant (LBP)') | number:'1.0-0' }}</span>
+				<span class="summary-label">Working Hours</span>
+			</div>
+			   <div class="summary-item">
+			       <span class="summary-value">{{ pricePerHour | number:'1.2-2' }} AED</span>
+			       <span class="summary-label">Price per Hour</span>
+			   </div>
+			<div class="summary-item total">
+                   <span class="summary-value">{{ getPlantPay('OUD Plant (LBP)') | number:'1.2-2' }} AED</span>
+			   	   <span class="summary-label">Total Payable</span>
+			</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="plant-section">
+		<div class="plant-header">
+			<div class="plant-title">
+				<span class="plant-icon material-icons">location_on</span>
+				<h4 class="plant-name">LSS14</h4>
+			</div>
+			<div class="plant-summary">
+			<div class="summary-item">
+                <span class="summary-value">{{ getPlantEmployees('LSS14') }}</span>
+				<span class="summary-label">Employees</span>
+			</div>
+			<div class="summary-item">
+                <span class="summary-value">{{ getPlantHours('LSS14') | number:'1.0-0' }}</span>
+				<span class="summary-label">Working Hours</span>
+			</div>
+			   <div class="summary-item">
+			       <span class="summary-value">{{ pricePerHour | number:'1.2-2' }} AED</span>
+			       <span class="summary-label">Price per Hour</span>
+			   </div>
+			<div class="summary-item total">
+                   <span class="summary-value">{{ getPlantPay('LSS14') | number:'1.2-2' }} AED</span>
+			   	   <span class="summary-label">Total Payable</span>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="actions">
+	<button class="save-btn" (click)="onSave()">Save</button>
+	<button class="submit-btn" (click)="onSubmit()">Submit</button>
+    <div class="summary">Total Payable: {{ grandTotalPayableAed | number:'1.2-2' }} AED</div>
+</div>

@@ -1,0 +1,17 @@
+
+
+/* Use a prebuilt theme */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+/* Global font (interchangeable) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+	--font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+html, body { 
+	font-family: var(--font-family);
+	color: #2c3e50;
+	background: #f3f4f6;
+}

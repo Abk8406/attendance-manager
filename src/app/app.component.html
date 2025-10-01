@@ -1,0 +1,8 @@
+<button class="hamburger" (click)="sidebarRef.toggle()" aria-label="Toggle Sidebar">☰</button>
+<div class="app-shell">
+	<app-sidebar #sidebarRef></app-sidebar>
+	<div class="content-area">
+		<app-top-filters></app-top-filters>
+		<router-outlet></router-outlet>
+	    </div>
+	  </div>
