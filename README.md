@@ -75,6 +75,5 @@ Screenshots are stored under `src/assets/img/` (alias: `@img/`). The README uses
 - Time input feels restrictive
   - Only digits are allowed; paste with invalid characters is normalized on blur
 
-## Notes
-- This project targets Angular 17; see `package.json` for exact versions
-- The code is optimized for clarity and demo purposes
+
+
